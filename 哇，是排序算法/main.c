@@ -8,7 +8,7 @@ void printArray(int arry[],int len){
 	printf("\n");
 }
 
-void instertSort(int arry[],int len){
+void insertionSort(int arry[],int len){
 	int i,j;
 	for(i=1;i<len;i++){
 		int insertNumber=arry[i];
@@ -24,6 +24,6 @@ void instertSort(int arry[],int len){
 int main(){
 	int nums[]={4,3,1,3,2};
 	printArray(nums,5);
-	instertSort(nums,5);
+	insertionSort(nums,5);
 	printArray(nums,5);
 }
